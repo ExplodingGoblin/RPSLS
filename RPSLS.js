@@ -92,7 +92,7 @@ function updateScore(val) {
 function updateScoreBoard() {
     document.getElementById("wins").textContent = score[0];
     document.getElementById("losses").textContent = score[2];
-    document.getElementById("ties").textContent = score[1] + " Ties.";
+    document.getElementById("ties").textContent = score[1] + " Ties";
 }
 
 // The button elements
